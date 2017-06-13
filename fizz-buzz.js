@@ -1,8 +1,9 @@
 function fizzBuzz(start, end) {
-  if (start !== end) {
-    return [0, 1]
+  const result = []
+  for (let i = start; i <= end; i++) {
+    result.push(i)
   }
-  return [0]
+  return result
 }
 
 module.exports = fizzBuzz
