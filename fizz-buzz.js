@@ -8,6 +8,10 @@ function fizzBuzz(start, end) {
       return 'Fizz'
     }
 
+    if ((k + start) % 5 === 0) {
+      return 'Buzz'
+    }
+
     return k + start
   })
 }
