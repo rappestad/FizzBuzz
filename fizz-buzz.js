@@ -4,6 +4,10 @@ function fizzBuzz(start, end) {
       return 0
     }
 
+    if ((k + start) % 3 === 0 && (k + start) % 5 === 0) {
+      return 'FizzBuzz'
+    }
+
     if ((k + start) % 3 === 0) {
       return 'Fizz'
     }
