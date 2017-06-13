@@ -1,22 +1,24 @@
 function fizzBuzz(start, end) {
   return Array.from({ length: end - start + 1 }, (v, k) => {
-    if (k + start === 0) {
+    const currentNumber = k + start
+
+    if (currentNumber === 0) {
       return 0
     }
 
-    if ((k + start) % 3 === 0 && (k + start) % 5 === 0) {
+    if (currentNumber % 3 === 0 && currentNumber % 5 === 0) {
       return 'FizzBuzz'
     }
 
-    if ((k + start) % 3 === 0) {
+    if (currentNumber % 3 === 0) {
       return 'Fizz'
     }
 
-    if ((k + start) % 5 === 0) {
+    if (currentNumber % 5 === 0) {
       return 'Buzz'
     }
 
-    return k + start
+    return currentNumber
   })
 }
 
