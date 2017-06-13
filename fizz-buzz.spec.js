@@ -21,4 +21,8 @@ describe('FizzBuzz', () => {
   it('should return ["Fizz", 4, "Buzz"] given (3, 5)', () => {
     expect(fizzBuzz(3, 5)).to.deep.equal(['Fizz', 4, 'Buzz'])
   })
+
+  it('should return ["FizzBuzz", 16, 17] given (15, 17)', () => {
+    expect(fizzBuzz(15, 17)).to.deep.equal(['FizzBuzz', 16, 17])
+  })
 })
