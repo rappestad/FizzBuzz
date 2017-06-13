@@ -3,6 +3,6 @@ A program that returns a list of numbers, but for multiples of three returns "Fi
 
 ## Example
 ```javascript
-> fizzBuzz(8, 11)
-[ 8, 'Fizz', 'FizzBuzz', 11 ]
+> fizzBuzz(12, 15)
+[ 'Fizz', 13, 14, 'FizzBuzz' ]
 ```
