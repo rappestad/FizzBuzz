@@ -13,4 +13,8 @@ describe('FizzBuzz', () => {
   it('should return [0, 1, 2] given (0, 2)', () => {
     expect(fizzBuzz(0, 2)).to.deep.equal([0, 1, 2])
   })
+
+  it('should return [1, 2, "Fizz"] given (1, 3)', () => {
+    expect(fizzBuzz(1, 3)).to.deep.equal([1, 2, 'Fizz'])
+  })
 })
